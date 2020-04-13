@@ -3,6 +3,7 @@
 function snakehelper --wraps snakemake --description 'hello, snakemake'
     echo "snakemake"
     echo "snakeparse"
+    echo "snakeinit <begin> <assembler> <samples.tsv>"
     echo "snakelist <configfile>"
     echo "snakedebug <configfile> <target>"
     echo "snakerun <configfile> <target> <threads>"
